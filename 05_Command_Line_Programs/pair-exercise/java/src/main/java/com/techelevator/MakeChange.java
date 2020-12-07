@@ -11,8 +11,9 @@ package com.techelevator;
  */
 public class MakeChange {
 
-	public static void main(String[] args) {
-
+	public static void main(String[] args) 
+	{
+		double billAmount = 23.65;
 	}
 
 }
