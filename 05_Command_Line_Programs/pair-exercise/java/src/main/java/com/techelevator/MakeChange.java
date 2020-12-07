@@ -11,6 +11,7 @@ import java.util.Scanner;
  Please enter the amount tendered: 100.00
  The change required is 76.35
  */
+
 public class MakeChange 
 {
 
@@ -33,6 +34,9 @@ public class MakeChange
 		double changeAmount = tender - bill;
 		
 		System.out.println("Change amount is: " + changeAmount);
+
+	
+
 	}
 	
 	
