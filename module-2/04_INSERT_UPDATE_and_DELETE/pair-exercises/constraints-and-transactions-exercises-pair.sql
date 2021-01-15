@@ -166,7 +166,7 @@ BEGIN TRANSACTION;
 
 
 UPDATE country
-SET surfacearea = (surfacearea * 2589988.1103)
+SET surfacearea = (surfacearea * 1609.34)
 WHERE code IN (
         SELECT countrycode
         FROM countrylanguage
